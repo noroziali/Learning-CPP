@@ -1,0 +1,5 @@
+To-do and extera learnings are located here:
+
+
+
+#Rand function in c language 

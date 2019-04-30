@@ -1,3 +1,5 @@
 The question sampels are located in this section :
 
 
+math.h 
+sqrt(d )

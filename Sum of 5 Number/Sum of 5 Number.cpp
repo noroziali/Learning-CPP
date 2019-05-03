@@ -7,11 +7,8 @@ int main()
 	system("title sume-of-5-number");
 	while (1)
 	{
-		int c;
-		float a,r;
-		r = 0;
-		a = 0;
-		c = 0;
+		int c=0;
+		float a=0,r=0;
 		while (c<5)
 		{
 			cout << "Enter your number :" << endl;

@@ -41,9 +41,19 @@ int main()
 		}
 		else if (op == '/')
 		{
-			cout << "you chosed to have the substract:" << endl;
-			r = a / b;
-			cout << "the result is :" << r << endl;
+			if (b=0)
+			{
+				cout << "you chosed to have the substract:" << endl;
+				r = 0;
+				cout << "the result is :" << r << endl;
+			}
+			if (b!=0)
+			{
+				cout << "you chosed to have the substract:" << endl;
+				r = a / b;
+				cout << "the result is :" << r << endl;
+			} 
+			
 		}
 
 		cout << "\nThis Program is Bulid by Soheyl Norozi on 13th of ordibehest 1398 \n";

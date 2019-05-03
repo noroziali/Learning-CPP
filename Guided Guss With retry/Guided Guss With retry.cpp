@@ -9,11 +9,11 @@ using namespace std;
 
 int main()
 {
-	srand(time(0));
+	system("title Can you Guss my number ?");
+	guss:srand(time(0));
 	int r, g;
 	r = rand() % 100;
 	cout << "Guss a number :" << endl;
-	//cout << r;
 	cin >> g;
 	while (r != g)
 	{
@@ -41,6 +41,8 @@ int main()
 	cout << "\n\n\nThanks For your Attentions!\n";
 
 	system("pause");
+	system("cls");
+	goto guss;
 	return 0;
 }
 

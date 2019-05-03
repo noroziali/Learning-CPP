@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	system("title Basic-Calculator");
 	int a, b,r;
 	char op;
 	while (1)
@@ -45,7 +46,7 @@ int main()
 			cout << "the result is :" << r << endl;
 		}
 
-		cout << "\nThis Program is Bulid by Soheyl Norozi on 3th of Farvardin 1398 \n";
+		cout << "\nThis Program is Bulid by Soheyl Norozi on 13th of ordibehest 1398 \n";
 		cout << "\n\n\nThanks For your Attentions!\n";
 		system("pause");
 		system("cls");
